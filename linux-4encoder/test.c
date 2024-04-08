@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
         linux_4encoder_set_led_int(i2c, i, 0xffffff);
       } else {
         // make a rainbow with HSV
-        c.h = (float)i * 0.125;
+        c.h = (float)i * 0.25;
         linux_4encoder_set_led_hsv(i2c, i, c);
       }
     }
