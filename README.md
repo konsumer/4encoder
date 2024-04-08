@@ -1,7 +1,7 @@
 # 4encoder
 
 > [!WARNING]  
-> I am still working on this. these devices are quite a bit mroe complicated to interface in C than [these](https://github.com/konsumer/8encoder/), so it will probly take some time.
+> I am still working on this. these devices are quite a bit more complicated to interface in C than [these](https://github.com/konsumer/8encoder/), so it will probly take some time.
 
 Various libs for working with [an i2c 4 rotary-encoder thing](https://www.adafruit.com/product/5752) on a pi.
 
