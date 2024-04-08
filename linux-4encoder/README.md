@@ -1,6 +1,6 @@
-See [this](https://www.kernel.org/doc/Documentation/i2c/dev-interface) for reference.
+See [this](https://learn.adafruit.com/adafruit-i2c-quad-rotary-encoder-breakout) for reference.
 
-This is a simple linux-device-based lib for intereacting with [this i2c encoder thing](https://docs.m5stack.com/en/unit/8Encoder)
+This is a simple linux-device-based lib for intereacting with [this i2c encoder thing](https://www.adafruit.com/product/5752)
 
 Install the required lib with:
 
