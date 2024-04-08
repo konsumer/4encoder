@@ -7,6 +7,7 @@ Various libs for working with [an i2c 4 rotary-encoder thing](https://www.adafru
 
 - [linux-4encoder](linux-4encoder) - C lib. Just uses regular linux stuff.
 - [puredata-pi4encoder](puredata-pi4encoder) - Puredata extension that use linux-4encoder
+- Simple python example [here](https://github.com/konsumer/4encoder/blob/main/demo.py) that uses blinka/circuitpyhton
 
 Make sure to add this to your `/boot/firmware/config.txt`:
 
