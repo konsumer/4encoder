@@ -15,7 +15,6 @@ typedef struct _pi4encoder {
 
 static void pi4encoder_outputchanges(t_pi4encoder* x) {
   t_atom msg[3] = {};
-  x->current_pass = !x->current_pass;
   int v = linux_4encoder_switch(x->i2c);
   if (x->tracking_switch != v) {
     SETSYMBOL(&msg[0], gensym("switch"));
