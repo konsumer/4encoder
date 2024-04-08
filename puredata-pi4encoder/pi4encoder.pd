@@ -1,0 +1,10 @@
+#N canvas 827 239 527 327 12;
+#X obj 319 299 outlet status;
+#X obj 319 78 inlet input;
+#X obj 194 144 loadbang;
+#X obj 194 215 print WARNING;
+#X msg 194 173 pi4encoder is running in emulator-mode. Make sure to compile it.;
+#X obj 319 121 print pi4encoder;
+#X connect 1 0 5 0;
+#X connect 2 0 4 0;
+#X connect 4 0 3 0;
