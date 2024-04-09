@@ -19,3 +19,7 @@ Make sure to add this to your `/boot/firmware/config.txt`:
 # dtparam=i2c_arm=on,i2c_arm_baudrate=400000
 dtparam=i2c_arm=on,i2c_arm_baudrate=1000000
 ```
+
+## TODO
+
+- Have a look [here](https://github.com/giuliomoro/OSC2OLED4Bela) for a pretty complete i2c OLED driver. This idea should work for all 3 (OLED, 4encoder, 8encoder)
